@@ -1,0 +1,1 @@
+cmd_/home/user/Projet_EDAC/cosmic_box/tets_v2/mmodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/user/Projet_EDAC/cosmic_box/tets_v2/mmodule.ko /home/user/Projet_EDAC/cosmic_box/tets_v2/mmodule.o /home/user/Projet_EDAC/cosmic_box/tets_v2/mmodule.mod.o;  true
