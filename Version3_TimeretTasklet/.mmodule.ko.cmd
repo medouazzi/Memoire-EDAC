@@ -1,0 +1,1 @@
+cmd_/home/user/cosmicbox/cosmic_box/V3/mmodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/user/cosmicbox/cosmic_box/V3/mmodule.ko /home/user/cosmicbox/cosmic_box/V3/mmodule.o /home/user/cosmicbox/cosmic_box/V3/mmodule.mod.o;  true
